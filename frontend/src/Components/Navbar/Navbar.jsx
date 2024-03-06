@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import logo from '../Assets/logo1.png'
 import cart from '../Assets/shoppingCart.png'
-import { set } from 'mongoose'
+// import { set } from 'mongoose'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {

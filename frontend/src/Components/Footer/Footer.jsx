@@ -2,6 +2,7 @@ import React from 'react'
 import './Footer.css'
 import logo from '../Assets/logo1.png'
 import insta_logo from '../Assets/insta_logo.png'
+import whatsapp_logo from "../Assets/whatsapp-icon.png"
 
 const Footer = () => {
   return (
@@ -20,7 +21,17 @@ const Footer = () => {
                 <div className="footer-icons-container">
                     <img src={insta_logo} alt="" />
                 </div>
+                <div className="footer-icons-container">
+                    <img src={whatsapp_logo} alt="" />
+                </div>
+                <div className="footer-icons-container">
+                    <img src={whatsapp_logo} alt="" />
+                </div>
             </div>  
+            <div className="footer-copyright">
+                <hr />
+                <p>Copyright @ 2024 -All Right Reserved</p>
+            </div>
         </div>
 
     </div>
